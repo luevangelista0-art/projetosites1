@@ -20,7 +20,7 @@
   color: white;
   font-size: 1rem;
   margin-bottom: 14px;
-  border-bottom: 2px solid #2563EB;
+  border-bottom: 2px solid #C62828;
   padding-bottom: 6px;
   display: inline-block;
 }
@@ -35,7 +35,7 @@
 }
 
 .rodape-secao a:hover {
-  color: #60A5FA;
+  color: #b33434;
 }
 
 .rodape-direitos {

@@ -1,7 +1,7 @@
 /* src/components/Cabecalho.css */
 
 .cabecalho {
-  background-color: #1E3A5F;
+  background-color: #7a1313;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@
 }
 
 .cabecalho .logo span {
-  color: #60A5FA;   /* parte azul clara do logo */
+  color: #c00707;   /* parte azul clara do logo */
 }
 
 .cabecalho nav {
@@ -44,7 +44,7 @@
 
 /* Link da página ativa (página atual) fica destacado */
 .cabecalho nav a.ativo {
-  background-color: #2563EB;
+  background-color: #b30000;
   color: white;
   font-weight: bold;
 }

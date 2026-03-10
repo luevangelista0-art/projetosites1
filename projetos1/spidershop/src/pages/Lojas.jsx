@@ -24,40 +24,16 @@ function Lojas() {
   return (
     <div style={{ maxWidth:'1000px', margin:'0 auto', padding:'48px 24px' }}>
 
-      <div style={{ borderLeft:'5px solid #2563EB', paddingLeft:'20px', marginBottom:'32px' }}>
-        <h1 style={{ color:'#1E3A5F', fontSize:'2rem' }}>Nossas Lojas</h1>
-        <p style={{ color:'#64748B' }}>Encontre a unidade mais próxima de você.</p>
+      <div style={{ borderLeft:'5px solid #eb2525', paddingLeft:'20px', marginBottom:'32px' }}>
+        <h1 style={{ color:'#5f1e1e', fontSize:'2rem' }}>Cursos extracurriculares</h1>
+        <p style={{ color:'#8b6464' }}>Encontre a unidade mais próxima de você.</p>
       </div>
-
-      {/* Filtro por estado */}
-      <div style={{ marginBottom:'32px', display:'flex', gap:'10px', flexWrap:'wrap' }}>
-        <span style={{ fontWeight:'bold', color:'#374151', alignSelf:'center' }}>Filtrar por estado:</span>
-        {estados.map(uf => (
-          <button
-            key={uf}
-            onClick={() => setFiltro(uf)}
-            style={{
-              padding:'6px 16px', borderRadius:'20px', border:'1px solid #CBD5E1',
-              background: filtro === uf ? '#2563EB' : 'white',
-              color:       filtro === uf ? 'white'   : '#374151',
-              cursor:'pointer', fontSize:'0.9rem', fontWeight: filtro === uf ? 'bold' : 'normal',
-            }}
-          >
-            {uf}
-          </button>
-        ))}
-      </div>
-
-      {/* Contagem de resultados */}
-      <p style={{ color:'#64748B', marginBottom:'20px' }}>
-        {lojasFiltradas.length} loja{lojasFiltradas.length !== 1 ? 's' : ''} encontrada{lojasFiltradas.length !== 1 ? 's' : ''}
-      </p>
 
       {/* Grid de lojas */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(280px, 1fr))', gap:'20px' }}>
         {lojasFiltradas.map(loja => (
           <div key={loja.id} style={{
-            background:'white', borderRadius:'12px',
+            background:'#F5F5DC', borderRadius:'12px',
             border:'1px solid #E2E8F0', padding:'24px',
             boxShadow:'0 2px 8px rgba(0,0,0,0.06)',
           }}>

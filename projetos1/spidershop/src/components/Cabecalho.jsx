@@ -23,28 +23,28 @@ function Cabecalho() {
           className={({ isActive }) => isActive ? 'ativo' : ''}
           end
         >
-          Home
+          Dados Pessoais
         </NavLink>
 
         <NavLink
           to='/sobre'
           className={({ isActive }) => isActive ? 'ativo' : ''}
         >
-          Nossa Empresa
+          Formação Acadêmica
         </NavLink>
 
         <NavLink
           to='/contato'
           className={({ isActive }) => isActive ? 'ativo' : ''}
         >
-          Contato
+          Experiência Profissional
         </NavLink>
 
         <NavLink
           to='/lojas'
           className={({ isActive }) => isActive ? 'ativo' : ''}
         >
-          Nossas Lojas
+          Cursos extracurriculares
         </NavLink>
       </nav>
 
