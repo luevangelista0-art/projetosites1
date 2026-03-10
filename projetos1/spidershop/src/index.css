@@ -1,0 +1,17 @@
+/* src/index.css — reset e estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F8FAFC;
+  color: #1E293B;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
